@@ -69,40 +69,42 @@ const EmailCrawler = require("./email-crawler");
 ```json
 [
   {
-    keyword: 'avito',
-    urls: [
-      'https://play.google.com/store/apps/details?id=se.scmv.morocco
-      'https://www.rekrute.com/avito.ma-emploi-recrutement-121101.ht
-      'https://www.dreamjob.ma/emploi/avito-ma-recrute/',
-      'https://www.challenge.ma/tag/avito/',
-      'https://www.facebook.com/Avito.ma/',
-      'https://play.google.com/store/apps/details?id=se.scmv.morocco
+    "keyword": "avito",
+    "urls": [
+      "https://play.google.com/store/apps/details?id=se.scmv.morocco&hl=fr",
+      "https://www.rekrute.com/avito.ma-emploi-recrutement-121101.html",
+      "https://www.dreamjob.ma/emploi/avito-ma-recrute/",
+      "https://www.challenge.ma/tag/avito/",
+      "https://www.facebook.com/Avito.ma/",
+      "https://play.google.com/store/apps/details?id=se.scmv.morocco&hl=fr"
     ],
-    emails: [
-      'robert@broofa.com',
-      'support@avito.ma',
-      'jobs@dreamjob.ma',
-      'contact@newpublicity.ma'
+    "emails": [
+      "robert@broofa.com",
+      "support@avito.ma",
+      "jobs@dreamjob.ma",
+      "contact@newpublicity.ma"
     ],
-    timeTaken: '53.97s'
+    "timeTaken": "61.17s"
   },
   {
-    keyword: 'jumia',
-    urls: [
-      'https://www.facebook.com/Jumia.ma/',
-      'https://www.facebook.com/JumiaFoodMA/',
-      'https://fr.wikipedia.org/wiki/Jumia_Maroc',
-      'https://lu.linkedin.com/company/jumia-maroc',
+    "keyword": "jumia",
+    "urls": [
+      "https://www.facebook.com/Jumia.ma/",
+      "https://www.facebook.com/JumiaFoodMA/",
+      "https://fr.wikipedia.org/wiki/Jumia_Maroc",
+      "https://lu.linkedin.com/company/jumia-maroc",
+      "https://leconomiste.com/flash-infos/jumia-lance-jumia-mall",
+      "https://www.challenge.ma/jumia-maroc-sallie-aux-grandes-marques-117376/"
     ],
-    emails: [
-      'abonnement@leconomiste.com',
-      'mareaction@leconomiste.com',
-      'redaction@leconomiste.com',
-      'publicite@leconomiste.com',
-      'communication@leconomiste.com',
-      'contact@newpublicity.ma'
+    "emails": [
+      "abonnement@leconomiste.com",
+      "mareaction@leconomiste.com",
+      "redaction@leconomiste.com",
+      "publicite@leconomiste.com",
+      "communication@leconomiste.com",
+      "contact@newpublicity.ma"
     ],
-    timeTaken: '78.47s'
+    "timeTaken": "51.03s"
   }
 ]
 ```
