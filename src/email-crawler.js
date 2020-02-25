@@ -64,7 +64,7 @@ class EmailCrawler {
     try {
       await this.initDriver();
 
-      const json = [];
+      const results = [];
       for (const keyword of this.keywords) {
         const t0 = performance.now();
         const urls = await this.getUrls(keyword);
@@ -75,14 +75,14 @@ class EmailCrawler {
         }
         const t1 = performance.now();
 
-        json.push({
+        results.push({
           keyword,
           urls,
           emails: [...new Set(emails)],
           timeTaken: Math.round((t1 - t0) / 10) / 100 + "s"
         });
       }
-      return json;
+      return results;
     } finally {
       await this.driver.quit();
     }
