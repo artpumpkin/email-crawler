@@ -1,5 +1,5 @@
 const EmailCrawler = require("./email-crawler");
-
+const fs = require("fs");
 
 (async () => {
   const emailCrawler = new EmailCrawler({
@@ -9,6 +9,6 @@ const EmailCrawler = require("./email-crawler");
     urlsPerDepth: 4
   });
 
-  const json = await emailCrawler.crawl();
-  console.log(json);
+  const results = await emailCrawler.crawl();
+  console.log(results);
 })();
