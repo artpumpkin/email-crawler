@@ -1,5 +1,4 @@
 const EmailCrawler = require("./email-crawler");
-const fs = require("fs");
 
 (async () => {
   const emailCrawler = new EmailCrawler({
