@@ -1,0 +1,31 @@
+{
+  "name": "email-crawler",
+  "version": "1.0.0",
+  "description": "An email crawler written in NodeJS.",
+  "main": "main.js",
+  "scripts": {
+    "webdriver-manager": "webdriver-manager update --standalone && webdriver-manager start --standalone",
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsalahdev/email-crawler.git"
+  },
+  "keywords": [
+    "email",
+    "email-crawler",
+    "email-scrapper"
+  ],
+  "author": "Salah Eddine Lachkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imsalahdev/email-crawler/issues"
+  },
+  "homepage": "https://github.com/imsalahdev/email-crawler#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "chromedriver": "^80.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "webdriver-manager": "^12.1.7"
+  }
+}
