@@ -66,11 +66,11 @@ const EmailCrawler = require("./email-crawler");
 
 ## Results
 
-```json
+```javascript
 [
   {
-    "keyword": "avito",
-    "urls": [
+    keyword: "avito",
+    urls: [
       "https://play.google.com/store/apps/details?id=se.scmv.morocco&hl=fr",
       "https://www.rekrute.com/avito.ma-emploi-recrutement-121101.html",
       "https://www.dreamjob.ma/emploi/avito-ma-recrute/",
@@ -78,17 +78,17 @@ const EmailCrawler = require("./email-crawler");
       "https://www.facebook.com/Avito.ma/",
       "https://play.google.com/store/apps/details?id=se.scmv.morocco&hl=fr"
     ],
-    "emails": [
+    emails: [
       "robert@broofa.com",
       "support@avito.ma",
       "jobs@dreamjob.ma",
       "contact@newpublicity.ma"
     ],
-    "timeTaken": "61.17s"
+    timeTaken: "61.17s"
   },
   {
-    "keyword": "jumia",
-    "urls": [
+    keyword: "jumia",
+    urls: [
       "https://www.facebook.com/Jumia.ma/",
       "https://www.facebook.com/JumiaFoodMA/",
       "https://fr.wikipedia.org/wiki/Jumia_Maroc",
@@ -96,7 +96,7 @@ const EmailCrawler = require("./email-crawler");
       "https://leconomiste.com/flash-infos/jumia-lance-jumia-mall",
       "https://www.challenge.ma/jumia-maroc-sallie-aux-grandes-marques-117376/"
     ],
-    "emails": [
+    emails: [
       "abonnement@leconomiste.com",
       "mareaction@leconomiste.com",
       "redaction@leconomiste.com",
@@ -104,7 +104,7 @@ const EmailCrawler = require("./email-crawler");
       "communication@leconomiste.com",
       "contact@newpublicity.ma"
     ],
-    "timeTaken": "51.03s"
+    timeTaken: "51.03s"
   }
 ]
 ```
