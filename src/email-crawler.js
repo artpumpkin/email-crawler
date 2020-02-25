@@ -46,7 +46,7 @@ class EmailCrawler {
   }
 
   async extractEmails(keyword, url, emails, depth = 0) {
-    console.log(chalk`{green.inverse  ${this.index++} }{inverse  url scanned for }{red.inverse  ${keyword} }\r`);
+    console.log(chalk`{green.inverse  ${this.index} }{inverse  url${this.index++ === 1 ? "" : "s"} scanned for }{red.inverse  ${keyword} }\r`);
     await this.driver.get(url);
     const html = await this.driver.getPageSource();
     emails.push(...(html.match(EmailCrawler.PATTERN) || []).map(match => match.toLowerCase()));
